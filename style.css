@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bodoni Moda', serif;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+h1,h2,,h3,h4,h5,h6{
+    font-family: 'Yusei Magic', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background: url(images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #72a132;
+    border-bottom: 1px solid black;
+}
+.n-area ul li a{
+    color: white !important;
+    font-family: 'Fraunces', serif;
+    transition: .5s;
+    margin: 2px;
+}
+.n-area ul li:hover a{
+color:yellow !important;
+text-decoration: underline 4px red;
+transition: .5s;
+}
+.fas{
+    color: white;
+}
+/* header finished */
+
+.bb{
+    padding: 80px 0;
+}
+.bb1{
+    margin-bottom: 80px;
+}
+.banner-container{
+    height: 70vh;
+}
+.banner-content h1{
+    color:white;
+    font-size: 3.5rem;
+    background-color: rgba(29, 71, 168,.8);
+    padding: 10px;
+}
+.banner-content button{
+    background-color: rgba(0, 0, 0, .8);
+    border: 3px solid red;
+}
+
+.card-area{
+    background-color: #0099FF;
+    margin-top: -10px !important;
+    
+}
+.services h1{
+    background-color: #0099FF;
+}
+.act{
+    background-color:#0099FF ;
+    margin: 0;
+    padding-top: 50px;
+}
+.card{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.card3{
+    margin: 4px 0;
+}
+
+/* .services ends here */
+
+.svg2{
+    margin-top: -250px;
+}
+
+
+/* about section bwllow */
+
+#about{
+    background: url(images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -200px !important;
+}
+.py-3{
+    padding-top: 200px !important;
+}
+/* upeer zipper bellow */
+.upper{
+    position: fixed;
+    top: 90%;
+    left: 93%;
+}

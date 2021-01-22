@@ -1,0 +1,32 @@
+@media(max-width: 558px){
+    .svg2{
+        margin-top: -104px !important;
+    }
+    #about{
+        margin-top: 0 !important;
+    }
+    .py-3 {
+        padding-top: 33px !important;
+    }
+    .upper{
+        position: fixed;
+        top: 88%;
+        left: 83%;
+        height: 40px;
+        width: 40px;
+    }
+    .n-area ul li a{
+        color: white !important;
+        font-family: 'Fraunces', serif;
+        margin: 2px;
+    }
+    .n-area ul li:hover a{
+        color:yellow !important;
+        text-decoration: underline 4px red;
+        background-color: rgba(0, 0, 0, .1);
+        }
+        .curv1{
+            display: none;
+        }
+        
+}
